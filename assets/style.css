@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+.main-content{
+    width: 80%;
+    margin-left: 1%;
+    /*background-color: green;*/
+}
+.sidebar-container{
+    width: 20%;
+    padding-left: 1%;
+    /*background-color: blue;*/
+}
+
+body{
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: Black;
+    padding-bottom: 2%;
+}
+.description {
+    font-size: 1.0rem;
+    color: Black;
+    padding: 0 0 15% 5%;
+}
+
+.app-container{
+    display: flex;
+}
+
+.graph-container {
+    margin: 0 0 1% 0;
+    width: 100%;
+}
+
+
+.slider-container {
+    width: 97%;
+    margin-bottom: 5px;
+    padding-left: 5%;
+    /*background-color: yellow;*/
+}
+
+
+.dropdown{
+     flex: 1 0 auto;
+    min-width: 275px;
+}
+.dropdown-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    width: 100%;
+    color: black;
+    padding-left: 5%;
+    padding-bottom: 5%;
+
+}
+.dropdown-graph-container{
+}
+
+
+
+.wine-card-content{
+    align-content: center;
+    justify-content: center;
+
+}
+.input-field input{
+    width: 95%;
+
+}
+
+.input-field textarea {
+    width: 95%;
+}
+.wine-card-container{
+    width: 93%;
+    border: 2px solid #888;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.wine-container{
+    padding-left: 5%;
+}
+
+.edit-button {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 10px;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4::-webkit-details-marker {
+  display: none;
+}
